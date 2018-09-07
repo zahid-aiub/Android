@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context="com.unity.listviewdemo.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/mainLayout"
+        android:weightSum="4"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/afghanistan"
+            android:scaleType="fitXY"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            />
+
+        <LinearLayout
+            android:layout_marginLeft="5dp"
+            android:layout_weight="3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/countryTextView"
+                android:layout_marginBottom="5dp"
+                android:text="Afganistan"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:textColor="#831313"
+                android:layout_weight="2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+            <TextView
+                android:id="@+id/discriptionView"
+                android:text="click here to see the discription"
+                android:textColor="#2c308b"
+                android:textAlignment="center"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

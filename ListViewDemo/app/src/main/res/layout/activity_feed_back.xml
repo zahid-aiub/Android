@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_weight="6"
+    tools:context="com.unity.listviewdemo.FeedBack">
+
+    <LinearLayout
+        android:layout_weight="3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/nameEditTextId"
+            android:textColor="#800f0f"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="10dp"
+            android:hint="Enter your name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <EditText
+            android:id="@+id/feedbackEditTextId"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"
+            android:textColor="#8716b4"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="10dp"
+            android:hint="Your feedback"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_weight="3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center_horizontal"
+        >
+
+        <Button
+            android:id="@+id/sendBtnId"
+            android:text="Send Feedback"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

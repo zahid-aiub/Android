@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">World</string>
+
+    <string-array name="country_name">
+        <item>Afghanistan</item>
+        <item>Bangladesh</item>
+        <item>Bhutan</item>
+        <item>Chin</item>
+        <item>Denmark</item>
+        <item>Finland</item>
+        <item>India</item>
+        <item>Maldiv</item>
+        <item>Pakistan</item>
+        <item>Sri-Lanka</item>
+
+    </string-array>
+    >
+</resources>

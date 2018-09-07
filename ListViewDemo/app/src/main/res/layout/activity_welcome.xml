@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="7"
+    android:background="#394d87"
+    tools:context="com.unity.listviewdemo.Welcome">
+
+
+    <LinearLayout
+        android:layout_weight="5"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="0dp">
+
+        <TextView
+            android:id="@+id/welcomeTextViewId"
+            android:textAllCaps="false"
+            android:textSize="25sp"
+            android:text="Welcome Apple Earth"
+            android:textAlignment="center"
+            android:textColor="#730509"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/earthImageViewId"
+            android:layout_marginTop="10dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/world_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="3"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="0dp">
+
+        <TextView
+            android:id="@+id/devlopTextViewId"
+            android:textAlignment="center"
+            android:text="Developed By"
+            android:textSize="20sp"
+            android:textColor="#660309"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:id="@+id/nameTextViewId"
+            android:text="Zahidul Islam"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:textStyle="italic"
+            android:textColor="#fbe7d90f"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <ProgressBar
+            android:id="@+id/prograssBarId"
+            android:progressTint="@android:color/holo_orange_dark"
+            android:progressBackgroundTint="#ffff"
+            style="@style/Base.Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_marginTop="50dp"
+            android:layout_width="200dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
